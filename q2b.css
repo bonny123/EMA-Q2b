@@ -140,3 +140,19 @@ footer	#imagebox-footer {
 footer	#imagebox-footer img{
 	width: 100%;
 }
+
+/* media queries for different layouts: tablet and laptop */
+/*tablet*/
+@media screen and (min-width: 375px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+}
+/*laptop and larger screens*/
+@media screen and (min-width: 1024px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+}
