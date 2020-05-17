@@ -92,6 +92,11 @@ nav li a {
 	background-color: #edf1f5;
 	padding-inline-start: 20px;
 	margin-left: 15px;
+	margin: auto;
+  	display: grid;
+  	grid-gap: 0.25rem;
+ 	 /* initial layout designed for mobile screens*/
+  	grid-template-columns: 1fr;
 }
 #sessionID{
 	display: none;
